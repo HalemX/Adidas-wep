@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#01012e,#240019);
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 150px;
+    height: 100px;
+}
+.container nav .logo{
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+    font-size:30px ;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.container nav ul li{
+    display: inline-block;
+}
+.container nav ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: rgb(82, 81, 81);
+    font-size:20px ;
+}
+.content{
+    background-image: url(imgs/stars1.png);
+    height: 100vh;
+}
